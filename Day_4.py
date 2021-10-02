@@ -102,6 +102,96 @@
 #     print(False)
 ###############################################################
 
+#Q6: Given two integers, they are considered a lucky pair 
+# if any one of them is 6 or if their sum or difference is equal to 6.
+# number_1 = int(input())
+# number_2 = int(input())
+# if (number_1 == 6 or number_2 == 6) or (number_1 + number_2 == 6 or number_1 - number_2 == 6):
+#     print("Lucky")
+# else:
+#     print("Unlucky")
+
+######################################################################
+#Q7: Write a program which prints the greatest among the given three numbers.
+# number_1 = int(input())
+# number_2 = int(input())
+# number_3 = int(input())
+
+# if (number_1 > number_2 and number_1 > number_3):
+#     print(number_1)
+# if (number_2 > number_3 and number_2 > number_1):
+#     print(number_2)
+# if (number_3 > number_1 and number_3 > number_2):
+#     print(number_3)
+# if (number_1 == number_2 == number_3):
+#    print(number_3)
+#####################################################################
+#               Coding Practice 5
+#Q1: Given two integers A and B, write a program to print the relation between the two numbers.
+# A = int(input())
+# B = int(input())
+# if A == B:
+#     print("A=B")
+# elif A>B:
+#     print("A>B")
+# elif A<B:
+#     print("A<B")
+########################################################################
+
+#Q2: Write a program to calculate the grade of the student based on marks he/she scored.
+# marks = float(input())
+# if marks>=85:
+#     print("A")
+# elif marks>70 and marks<=80:
+#     print("B")
+# elif marks>=60 and marks<=70:
+#     print("C")
+# else:
+#     print("F")
+
+##########################################################################
+#Q3: Write a program to print a greeting message based on the given time.
+# time = float(input())
+# morning = time>=4 and time<12
+# afternoon = time>=12 and time <16
+# evening = time>=16 and time<20
+# night = time>=20 and time<4
+
+# if morning:
+#     print("Good Morning")
+# elif afternoon:
+#     print("Good Afternoon")
+# elif evening:
+#     print("Good Evening")
+# else:
+#     print("Good Night")
+##########################################################################
+
+#Q4: Given the number of sides, write a program to print the name of the polygon.
+# no_of_sides = int(input())
+# if no_of_sides <=5:
+#     if no_of_sides == 5:
+#         print("Pentagon")
+#     elif no_of_sides == 4:
+#         print("Quadrilateral")
+#     elif no_of_sides == 3:
+#         print("Triangle")
+#     elif no_of_sides<=2:
+#         print("Not Polygon")
+# else:
+#     print("Big Polygon")    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
