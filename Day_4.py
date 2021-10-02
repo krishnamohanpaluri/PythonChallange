@@ -70,3 +70,40 @@
 # else:
 #     print(False)
 ###############################################################
+
+#Q4:
+# Write a program to find the hypotenuse H of a right-angled triangle of sides A and B.
+# Note: Pythagoras theorem states that, for a right-angled triangle. Hypotenuse2 = A2 + B2
+# A = int(input())
+# B = int(input())
+# C = int(((A**2)+(B**2))**(0.5))
+# print(C)
+#################################################################
+
+#Q5: 
+# Write a program to check if a given 3-digit number X is an Armstrong number or not.
+# Note: A number is an Armstrong number if the number is equal to the sum of the Nth power of its digits.
+# X = input()
+# Y = len(X)
+# #print(X)
+# #print(Y)
+# X = int(X)
+# first_digit = int(X/100) #first digit
+# b = int(X%100)
+# second_digit = int(b/10) #second digit
+# third_digit = int(b%10) #third digit
+# print(first_digit)
+# print(second_digit)
+# print(third_digit)
+
+# if((first_digit**Y)+(second_digit**Y)+(third_digit**Y) == X):
+#     print(True)
+# else:
+#     print(False)
+###############################################################
+
+
+
+
+
+
