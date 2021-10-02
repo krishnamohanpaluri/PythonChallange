@@ -42,4 +42,31 @@
 #     print("Lucky Number")
 # else:
 #     print("Unlucky Number") 
-############################################################
+# ############################################################
+# Assignment-4: 
+#Q1: Write a program to print the triple of number N if it is a
+#  multiple of 3 otherwise, double of N.
+# N = int(input())
+# if (N%3==0):
+#     print(N*3)
+# else:
+#     print(N*2)
+################################################################
+
+#Q2: You are given two integers, a and b. Print the smallest value among a%b and b%a.
+# a = int(input())
+# b = int(input())
+# if (a%b < b%a):
+#     print(a%b)
+# else:
+#     print(b%a)
+#################################################################
+
+#Q3: Given a number N, find whether the number is common or uncommon. A number is considered uncommon 
+# if it is not divisible by any of the single-digit primes.
+# N = int(input())
+# if (N%2 !=0) and (N%3 !=0) and (N%5 !=0) and (N%7 !=0):
+#     print(True)
+# else:
+#     print(False)
+###############################################################
