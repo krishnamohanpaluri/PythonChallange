@@ -47,4 +47,43 @@
 # a = a - c*50
 # d = int(a/10)
 # a = a - d*10
-# print("500:"+str(b)+" "+"50:"+str(c)+" "+"10:"+str(d)+" "+"1:"+str(a))
+# # print("500:"+str(b)+" "+"50:"+str(c)+" "+"10:"+str(d)+" "+"1:"+str(a))
+######################################################################
+
+# Write a program to print integers from 1 to the given integer (N).
+# n = int(input())
+# counter = 0
+# while counter < n:
+#     counter = counter+1
+#     print(counter)
+#############################################################################################################
+
+# Given two integer numbers M and N, write a program to print the integers from M to N.
+# m = int(input("Enter small number: "))
+# n = int(input("Enter big number: "))
+# counter = 0
+
+# #if m>n:
+# while counter <= (n-m):
+#     print(m+counter)
+#     counter = counter+1
+##########################################################################################
+
+# Write a program to print a solid square pattern of 
+# N rows and N columns using the asterisk character (*), where integer N is given as an input.     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
