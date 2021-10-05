@@ -82,15 +82,65 @@
 
 # Given an integer number (N) as input. Write a program to print the right-angled triangular pattern of N lines using an asterisk(*) character.
 
+# n = int(input())
+# counter = 1
+# while counter<n:
+#     print(counter*"* ")
+#     counter = counter+1
+
+#########################################################################################
+
+# Given an integer number (N) as input. Write a program to print the sum of first N natural numbers.
+
+# n = int(input())
+# counter = 0
+# total = 0
+# while counter<n:
+#     counter = counter + 1
+#     total = total + counter
+# print(total)
+
+##########################################################################################
+
+# n = int(input())
+# counter = 0
+# while counter < n:
+#     m = int(input())
+#     print(m)
+#     counter = counter + 1
+
+########################################################################################
+
+#Given an integer N, write a program which reads N inputs and prints the sum of the given input integers.
+# n = int(input())
+# counter = 0
+# total = 0
+# while counter < n:
+#     m = int(input())
+#     counter = counter + 1
+#     total = total+m
+    
+# print(total)
+#########################################################################################
+
+#Given an integer N. Write a program to print integers from N to 1.
+# n = int(input())
+# while n>0:
+#     print(n)
+#     n =  n - 1
+####################################################################################
+
+# n = int(input("Enter No of Rows: "))
+# m = int(input("Enter No of Columns: "))
+# counter = 0
+# while counter < n:
+#     counter = counter + 1
+#     print("+ "*m)
 
 
+##################################################################################33
 
-
-
-
-
-
-
+#Given an integer N, write a program which reads N inputs and prints the product of the given input integers.
 
 
 
