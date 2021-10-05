@@ -71,9 +71,16 @@
 
 # Write a program to print a solid square pattern of 
 # N rows and N columns using the asterisk character (*), where integer N is given as an input.     
+# n = int(input("Enter No of Rows: "))
+# m = int(input("Enter No of Columns: "))
+# counter = 0
+# while counter < m:
+#     counter = counter + 1
+#     print("* "*n)
+    
+###################################################################################3
 
-
-
+# Given an integer number (N) as input. Write a program to print the right-angled triangular pattern of N lines using an asterisk(*) character.
 
 
 
