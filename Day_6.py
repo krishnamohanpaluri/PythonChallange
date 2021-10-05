@@ -105,37 +105,162 @@
 # N = N-m
 # d = int(N/10)
 # n = d*10
-#     #print(str(d)+"*"+str(10))
-# print("10 Notes: "+str(d))
+# #     #print(str(d)+"*"+str(10))
+# # print("10 Notes: "+str(d))
 
-###################################################################
+# ###################################################################
 
-# Write a program to find the minimum number of notes required for the amount M. 
-# Available note denominations are 2000, 500, 200, 50, 20, 5, 2, 1.
+# # Write a program to find the minimum number of notes required for the amount M. 
+# # Available note denominations are 2000, 500, 200, 50, 20, 5, 2, 1.
 
-N = int(input())
-a = int(N/2000)
-k = a*2000
-print(str(a)+ "*" + str(2000))
-#print("100 Notes: "+str(a))
-N = N - k
-     #print(a)
-     #print(N)
-b = int(N/500)
-l = b*500
-print(str(b)+"*"+str(500))
-#print("50 Notes: "+str(b))
-N = N-l
-     #print(N)
-c = int(N/200)
-m = c*200
-print(str(c)+"*"+str(200))
-#print("20 Notes: "+str(c))
-N = N-m
-d = int(N/50)
-n = d*50
-print(str(d)+"*"+str(50))
-#print("10 Notes: "+str(d))
+# N = int(input())
+# a = int(N/2000)
+# k = a*2000
+# print(str(a)+ "*" + str(2000))
+# #print("100 Notes: "+str(a))
+# N = N - k
+#      #print(a)
+#      #print(N)
+# b = int(N/500)
+# l = b*500
+# print(str(b)+"*"+str(500))
+# #print("50 Notes: "+str(b))
+# N = N-l
+#      #print(N)
+# c = int(N/200)
+# m = c*200
+# print(str(c)+"*"+str(200))
+# #print("20 Notes: "+str(c))
+# N = N-m
+# d = int(N/50)
+# n = d*50
+# print(str(d)+"*"+str(50))
+# #print("10 Notes: "+str(d))
+
+day_0 = input("Enter the day: ")
+day_n = int(input("Enter the number of day: "))
+day_1 = "Monday"
+day_2 = "Tuesday"
+day_3 = "Wednesday"
+day_4 = "Thursday"
+day_5 = "Friday"
+day_6 = "Saturday"
+day_7 = "Sunday"
+
+if day_0 == "Monday":
+    if day_n%7 == 1:
+        print(day_1)
+    elif day_n%7 == 2:
+        print(day_2)
+    elif day_n%7 == 3:
+        print(day_3)
+    elif day_n%7 == 4:
+        print(day_4)
+    elif day_n%7 == 5:
+        print(day_5)
+    elif day_n%7 == 6:
+        print(day_6)
+    elif day_n%7 == 0:
+        print(day_7)
+
+elif day_0 == "Tuesday":
+    if day_n%7 == 1:
+        print(day_2)
+    elif day_n%7 == 2:
+        print(day_3)
+    elif day_n%7 == 3:
+        print(day_4)
+    elif day_n%7 == 4:
+        print(day_5)
+    elif day_n%7 == 5:
+        print(day_6)
+    elif day_n%7 == 6:
+        print(day_7)
+    elif day_n%7 == 0:
+        print(day_1)
+
+elif day_0 == "Wednesday":
+    if day_n%7 == 1:
+        print(day_3)
+    elif day_n%7 == 2:
+        print(day_4)
+    elif day_n%7 == 3:
+        print(day_5)
+    elif day_n%7 == 4:
+        print(day_6)
+    elif day_n%7 == 5:
+        print(day_7)
+    elif day_n%7 == 6:
+        print(day_1)
+    elif day_n%7 == 0:
+        print(day_2)
+
+elif day_0 == "Thursday":
+    if day_n%7 == 1:
+        print(day_4)
+    elif day_n%7 == 2:
+        print(day_5)
+    elif day_n%7 == 3:
+        print(day_6)
+    elif day_n%7 == 4:
+        print(day_7)
+    elif day_n%7 == 5:
+        print(day_1)
+    elif day_n%7 == 6:
+        print(day_2)
+    elif day_n%7 == 0:
+        print(day_3)
+
+elif day_0 == "Friday":
+    if day_n%7 == 1:
+        print(day_5)
+    elif day_n%7 == 2:
+        print(day_6)
+    elif day_n%7 == 3:
+        print(day_7)
+    elif day_n%7 == 4:
+        print(day_1)
+    elif day_n%7 == 5:
+        print(day_2)
+    elif day_n%7 == 6:
+        print(day_3)
+    elif day_n%7 == 0:
+        print(day_4)
+
+elif day_0 == "Saturday":
+    if day_n%7 == 1:
+        print(day_6)
+    elif day_n%7 == 2:
+        print(day_7)
+    elif day_n%7 == 3:
+        print(day_1)
+    elif day_n%7 == 4:
+        print(day_2)
+    elif day_n%7 == 5:
+        print(day_3)
+    elif day_n%7 == 6:
+        print(day_4)
+    elif day_n%7 == 0:
+        print(day_5)
+
+elif day_0 == "Sunday":
+    if day_n%7 == 1:
+        print(day_7)
+    elif day_n%7 == 2:
+        print(day_1)
+    elif day_n%7 == 3:
+        print(day_2)
+    elif day_n%7 == 4:
+        print(day_3)
+    elif day_n%7 == 5:
+        print(day_4)
+    elif day_n%7 == 6:
+        print(day_5)
+    elif day_n%7 == 0:
+        print(day_6)
+
+
+ 
 
 
 
