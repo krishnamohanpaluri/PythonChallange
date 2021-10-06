@@ -28,8 +28,5 @@
 #Note: Use For Loop
 n = int(input())
 m = int(input())
-
-for i in range(n,m):
-    print(i*"* ")
-
-
+for i in range(n, m ):
+    
