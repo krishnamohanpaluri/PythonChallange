@@ -76,6 +76,83 @@
 #     b = b + "-" + a[i]
 # print(a[0]+b)
 
+#################################################
+#Assignment-8#
+
+#A8_P1:
+# n = int(input())
+# for i in range(1, n+1):
+#     print(n)
+#     n = n-1
+###################################################
+
+#a8_p2:
+# n = int(input())
+# total = 1
+# for i in range(n):
+#     m = int(input())
+#     total = total*m
+# print(total)
+
+###################################################
+
+#a8_p3:
+# n = int(input())
+# m = int(input())
+# for i in range(n):
+#     print("+ "*m)
+
+#######################################################
+
+#a8_p4:
+# n = int(input())
+# for i in range(1,n+1):
+#     print("* "*i)
+# for j in range(1, n+1):
+#     print("* "*j)
+######################################################
+
+#Coding Practice-9
+
+#CP9_P1:
+# factorial_number = int(input())
+# total = 1
+# for i in range(1, factorial_number+1):
+#     total = total*i
+# print(total)
+    
+###################################################
+
+#cp9_p2
+# first_number = int(input())
+# last_number = int(input())
+# total = 0
+# for i in range(first_number, last_number+1):
+#     #print(i)
+#     total = total + i
+# print(total)
+
+####################################################
+
+#cp9_p3,4
+
+# number = int(input())
+# total = 0
+# for i in range(number+1):
+#     if i%2==1:
+#         total = total+i
+# print(total)
+
+########################################################
+
+
+
+
+
+
+
+
+
 
 
 
