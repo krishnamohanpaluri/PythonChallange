@@ -142,5 +142,28 @@
 
 #Given an integer N, write a program which reads N inputs and prints the product of the given input integers.
 
+# n = int(input())
+# counter = 0
+# total = 1
+# while counter < n:
+#     m = int(input())
+#     counter = counter + 1
+#     total = total*m
+# print(total)
+##########################################################################################
+
+# Given an integer number N as input. Write a program to print the double triangular pattern of N lines using an asterisk(*) character as shown below.
+# Note: There is a space after each asterisk * character.
+
+# n = int(input())
+# m = n
+# counter = 1
+# while counter <= n:
+#     print("* "* counter)
+#     counter = counter + 1
+# c = 1
+# while c <= m :
+#     print("* "* c)
+#     c = c + 1
 
 
