@@ -90,7 +90,17 @@
 # else:
 #     print("Not an Armstrong Number")
 
+#############################################
 
+number = int(input())
+total = 0
+seriesTotal=0
+for i in range(0, number):  
+     j = (10**i)
+     #print(j)
+     total = total + j
+     seriesTotal = seriesTotal+total
+print(seriesTotal)
 
 
 
