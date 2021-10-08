@@ -109,18 +109,38 @@
 #################################################
 
 #a9_p4:
-n = int(input())
-for i in range(1, n+1):
-    print(i)
+# n = int(input())
+# for i in range(1, n+1):
+#     print(i)
 
+###############################################
 
+#####Coding Practice-10##########################
+#cp10_p1
 
+# n = int(input())
+# for i in range(1,11 ):
+#     print(str(n)+" x "+str(i)+" = "+str(i*n))
 
+################################################
 
+#cp10_p2
 
+# string = input()
+# print(string[::-1])
+#################################################
 
+#cp10_p3
 
-
+string = input()
+reverse_string = string[::-1]
+first_char = reverse_string[0]
+print(first_char.upper())
+print(reverse_string[:len(reverse_string)])
+#if string == string[::-1] :
+ #   print("Palindrome")
+#else:
+#    print("Not a Palindrome")
 
 
 
