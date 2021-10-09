@@ -134,21 +134,73 @@
 
 #############################################################
 
-                 #CODING PRACTICE-12: PROBLEM-7
+                 #CODING PRACTICE-12: PROBLEM-8
 
+# n = int(input())
+# m = int(input())
+# emptyString = ""
+# for i in range(1,m+1):
+#     emptyString = emptyString + str(i)+" "
+# for i in range(1, n+1):
+#     print(emptyString)
 
+#############################################################
 
+                 #CODING PRACTICE-12: PROBLEM-9
 
+# rows = int(input())
+# columns = int(input())
+# for j in range(1, columns+1):
+#     for i in range(1, rows+1):
+#         print((str(i)+" ")*rows)
 
+#############################################################
 
+                 #CODING PRACTICE-12: PROBLEM-10
 
+# rows = int(input())
+# print("* "*rows)
+# for i in range(rows-2):
+#          spaces = "  " * (rows-2)
+#          lines = "* " + spaces + "* "
+#          print(lines)
+# print("* "*rows)
 
+#############################################################
 
+                 #ASSIGNMENT-12: PROBLEM-1
+# n = int(input())
+# total = 0
+# for i in range(1, n+1):
+#     if (i%2 == 0):
+#         total = total+i
+# print(total)
 
+#############################################################
 
+                 #ASSIGNMENT-12: PROBLEM-2
+# n = int(input())
+# total = 0
+# for i in range(1, n+1):
+#     if (i%2 == 1):
+#         total = total + i
+# print(total)
 
+#############################################################
 
+                 #ASSIGNMENT-12: PROBLEM-2
+# n = int(input())
+# count = 0
+# for i in range(2, n):
+#     if n%i == 0:
+#         count = count+1
+# if count>=2:
+#     print(True)
+# else:
+#     print(False)
+#############################################################
 
+                 #ASSIGNMENT-12: PROBLEM-3
 
 
 
@@ -496,9 +548,6 @@
 
 
 
-
-
-                 
                 
 
 
