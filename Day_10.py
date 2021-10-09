@@ -92,18 +92,27 @@
 
 #############################################
 
-number = int(input())
-total = 0
-seriesTotal=0
-for i in range(0, number):  
-     j = (10**i)
-     #print(j)
-     total = total + j
-     seriesTotal = seriesTotal+total
-print(seriesTotal)
+#Assignment-10
 
+# number = int(input())
+# total = 0
+# seriesTotal=0
+# for i in range(0, number):  
+#      j = (10**i)
+#      #print(j)
+#      total = total + j
+#      seriesTotal = seriesTotal+total
+# print(seriesTotal)
 
+##################################################
 
+#a10_p2
+
+a = int(input())
+b = int(input())
+count = 0
+for i in range(a , b+1):
+    if i**
 
 
 
