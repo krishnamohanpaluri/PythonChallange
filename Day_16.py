@@ -92,3 +92,12 @@
 # print(round(r2,2))
 #######################################################
 
+string = input("Enter the text: ")
+for i in range(len(string)):
+    order = ord(string[i])
+    order = int(order)
+    if order ==32:
+        order = 31
+    k = order+1
+    print(chr(k), end='')
+    
