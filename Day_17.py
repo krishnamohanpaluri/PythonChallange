@@ -86,4 +86,23 @@
 #     string_list+=char
 # print(string_list)
 #######################################################33
-print(2**38)
+#GCD PRoblem
+# n = int(input())
+# m = int(input())
+# n_list =[]
+# m_list =[]
+# for i in range(1, n+1):
+#     if n%i == 0:
+#         n_list =n_list + [i]
+# for i in range(1, m+1):
+#     if m%i == 0:
+#         m_list =m_list+[i]
+# for i in n_list:
+#     if i
+#################################################
+programming_languages_list = ["Python", "Java", "Ruby", "C", "C++", "Go", "R", "JavaScript", "Swift", "PHP", "Kotlin", "Perl"]
+n = int(input())
+for i in range(n+1):
+    k = input()
+    if k == programming_languages_list[:k]:
+        print()
