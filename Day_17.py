@@ -100,9 +100,56 @@
 # for i in n_list:
 #     if i
 #################################################
-programming_languages_list = ["Python", "Java", "Ruby", "C", "C++", "Go", "R", "JavaScript", "Swift", "PHP", "Kotlin", "Perl"]
+# programming_languages_list = ["Python", "Java", "Ruby", "C", "C++", "Go", "R", "JavaScript", "Swift", "PHP", "Kotlin", "Perl"]
+# n = int(input())
+# for i in range(1, n+1):
+#     k = int(input())
+#     print(programming_languages_list[k])
+###################################################
+
+# n = int(input())
+# m = int(input())
+# list_a=[n]
+# print(list_a*m)
+##################################################
+
+# num_list = [1, 6, 32, 93, 71, -20, 30, -90, 50]
+# n = int(input())
+# empty_list = []
+# for i in range(0, len(num_list)):
+#     if n<num_list[i]:
+#         empty_list.append(num_list[i])
+# print(empty_list)
+
+####################################################
+# n = int(input())
+# empty_list=[]
+# for i in range(1, n+1):
+#     k = input()
+#     empty_list.append(k)
+# print(empty_list)
+##################################################
+
+# n = int(input())
+# empty_list = []
+# for i in range(1, n+1):
+#     k = input()
+#     empty_list.append(k)
+# m = empty_list[::-1]
+# for i in m:
+#     print(i)
+#####################################################
+# n = int(input())
+# empty_list = []
+# for i in range(1, n+1):
+#     k = input()
+#     empty_list.append(k)
+# k =  empty_list[:3] + empty_list[-3:]
+# print(k)
+###################################################
 n = int(input())
-for i in range(n+1):
-    k = input()
-    if k == programming_languages_list[:k]:
-        print()
+empty_list =[]
+for i in range(1, n+1):
+    k = int(input())
+    empty_list.append(k)
+print(empty_list)
