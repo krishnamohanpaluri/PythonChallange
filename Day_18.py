@@ -35,10 +35,33 @@
 #     total = spaces+stars1+space
 #     print(total)
 ##########################################################
-n = int(input())
-empty_list = []
-for i in range(1, n+1):
-    k = input()
-    empty_list.append(k)
-for i in range (len(empty_list)):
-    print(empty_list[i])
+# k = input()
+# m = k.split()
+# print(m[::-1])
+#######################################################
+# k = input()
+# m = k.split()
+# sum = 0
+# for i in range(len(m)):
+#     n = int(m[i])
+#     sum = sum+n
+# print(sum)
+#######################################################
+# k = input()
+# m = k.split()
+# for i in range (len(m)):
+#     print(m[i][::-1]+" " ,end='')
+#######################################################
+# k = input()
+# m = k.split()
+# n = len(m)
+# for i in range(1, n+1):
+#     print(m[n-i]+" ", end='')
+#####################################################
+k = input()
+m = k.split()
+sum = 1
+for i in range(len(m)):
+    n = int(m[i])
+    sum = sum*n
+print(sum)
