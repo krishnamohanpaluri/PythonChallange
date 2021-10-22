@@ -172,4 +172,54 @@
 # box_3 = list(box_3)
 # box_3 = sorted(box_3)
 # print(box_3)
-###############################################################
+# ###############################################################
+# num_set = {1, 2, 3, 4, 5, 6, 7, 8, 9}
+# n = input()
+# n = n.split()
+# box_1 = []
+# for i in range(len(n)):
+#     box_1.append(int(n[i]))
+# box_1 = set(box_1)
+# if num_set.issubset(box_1)==True:
+#     print("Subset")
+# elif num_set.issuperset(box_1) == True:
+#     print("Superset")
+# elif box_1.isdisjoint(num_set) == True:
+#     print("Disjoint Set")
+#########################################################
+# string_1 = input()
+# box_1 = []
+# string_1 = string_1.split()
+# for i in range(len(string_1)):
+#     box_1.append(string_1[i])
+# string_2 = input()
+# box_2 = []
+# for i in range(len(string_2)):
+#     box_2.append(string_2[i])
+# string_3 = input()
+# box_3 = []
+# for i in range(len(string_3)):
+#     box_3.append(string_3[i])
+# box_1 = set(box_1)
+# box_2 = set(box_2)
+# box_3 = set(box_3)
+# box_4 = box_1 & box_2 & box_3
+# box_4 = list(box_4)
+# box_4 = sorted(box_4)
+# print(box_4)
+###################################################
+# n = int(input())
+# m = int(input())
+# if m<n:
+#     (n,m) = (m,n)
+# if n%2 == 0:
+#     n = n+1
+# for i in range(n,m+1, 2):
+#     count = 0
+#     for j in range (3,i):
+#         if i%j == 0:
+#             count+=1
+#         if count<1:
+#             print(i)
+#         break
+#######################################################
